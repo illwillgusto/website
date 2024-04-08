@@ -24,5 +24,7 @@ echo "Pizza and fries is a undefeated combination";
     <a href="ifstatement.php">Learn if statements</a>
     <br>
     <a href="logicalops.php">Learn Logical Operators</a>
+    <br>
+    <a href="switchstatements.php">Learn Switch statements</a>
 </body>
 </html>
