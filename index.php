@@ -36,5 +36,7 @@ echo "Pizza and fries is a undefeated combination";
     <a href="checkbox.php">Learn Checkboxes in PHP</a>
     <br>
     <a href="functionsinphp.php">Learn Functions in PHP</a>
+    <br>
+    <a href="sanitizevalidate.php">Learn Sanitize & Validate</a>
 </body>
 </html>
