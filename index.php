@@ -38,5 +38,7 @@ echo "Pizza and fries is a undefeated combination";
     <a href="functionsinphp.php">Learn Functions in PHP</a>
     <br>
     <a href="sanitizevalidate.php">Learn Sanitize & Validate</a>
+    <br>
+    <a href="includefunction.php">Learn Include()</a>
 </body>
 </html>
