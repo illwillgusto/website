@@ -28,5 +28,7 @@ echo "Pizza and fries is a undefeated combination";
     <a href="switchstatements.php">Learn Switch statements</a>
     <br>
     <a href="associativearray.php">Learn Associative Arrays</a>
+    <br>
+    <a href="phpfunctions.php">Learn PHP function</a>
 </body>
 </html>
