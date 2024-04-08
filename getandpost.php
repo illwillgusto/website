@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GET and POST variables</title>
 </head>
+
 <body>
-    <form>
-    <label>Username:</label><br>
-    <input type="text" name="username"><br>
-    <label>Password:</label><br>
-    <input type="password" name="password"><br>
-    <input type="submit" value="log in"><br>
+    <form action="getandpost.php" method="get">
+        <label>Username:</label><br>
+        <input type="text" name="username"><br>
+        <label>Password:</label><br>
+        <input type="password" name="password"><br>
+        <input type="submit" value="log in"><br>
     </form>
 </body>
+
 </html>
 
 <?php
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 $_GET, $_POST = special variables used to collect data from an HTML form
 data is sent to the file in the action attribute of <form>
@@ -38,5 +54,5 @@ $_POST = Data is packed inside the body of the HTTP request
         Better for submitting credentials 
 */
 
- 
+
 ?>
