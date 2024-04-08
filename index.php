@@ -18,5 +18,7 @@ echo "Pizza and fries is a undefeated combination";
     <a href="variables.php">Learn About Variables</a>
     <br>
     <a href="arithmetic.php">Learn Arithmetic in PHP</a>
+    <br>
+    <a href="getandpost.php">Learn GET & POST</a>
 </body>
 </html>
