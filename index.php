@@ -14,5 +14,7 @@ echo "Pizza and fries is a undefeated combination";
 <body>
     <br>
     <button>Order a Pizza</button>
+    <br>
+    <a href="variables.php">Learn About Variables</a>
 </body>
 </html>
