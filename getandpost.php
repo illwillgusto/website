@@ -6,7 +6,13 @@
     <title>GET and POST variables</title>
 </head>
 <body>
-    
+    <form>
+    <label>Username:</label><br>
+    <input type="text" name="username"><br>
+    <label>Password:</label><br>
+    <input type="password" name="password"><br>
+    <input type="submit" value="log in"><br>
+    </form>
 </body>
 </html>
 
