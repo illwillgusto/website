@@ -30,5 +30,7 @@ echo "Pizza and fries is a undefeated combination";
     <a href="associativearray.php">Learn Associative Arrays</a>
     <br>
     <a href="phpfunctions.php">Learn PHP function</a>
+    <br>
+    <a href="radiobutton.php">Learn Radio Buttons</a>
 </body>
 </html>
