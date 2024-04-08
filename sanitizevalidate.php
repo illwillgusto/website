@@ -20,6 +20,15 @@
 <?php
     if(isset($_POST["login"])){
 
+        $age = filter_input(INPUT_POST, "age", FILTER_VALIDATE_INT);
+
+        if(empty($age)){
+            echo "That number wasn't valid";
+        }
+        else {
+            echo "You are $age years old";
+        }
+
         // $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_SPECIAL_CHARS);
         // //this stops viruses from being entered in the input field the filter function and argument 
 
@@ -28,7 +37,5 @@
 
         // $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 
-
-        echo "Hello {$username}";
     }
 ?>
