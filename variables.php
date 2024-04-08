@@ -32,3 +32,16 @@ echo "Your slice of pizza is \${$price} <br>"; // notice here the \ was used bef
 echo "Online status: {$online} <br>"; // because it is false nothing will be displayed on the web page 
 
 // the syntax for calling a variable is {$variablename}
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Learning in PHP</title>
+</head>
+<body>
+    <a href="index.php">Home</a>
+</body>
+</html>

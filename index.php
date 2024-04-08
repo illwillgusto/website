@@ -16,5 +16,7 @@ echo "Pizza and fries is a undefeated combination";
     <button>Order a Pizza</button>
     <br>
     <a href="variables.php">Learn About Variables</a>
+    <br>
+    <a href="arithmetic.php">Learn Arithmetic in PHP</a>
 </body>
 </html>
