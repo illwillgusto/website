@@ -22,5 +22,7 @@ echo "Pizza and fries is a undefeated combination";
     <a href="getandpost.php">Learn GET & POST</a>
     <br>
     <a href="ifstatement.php">Learn if statements</a>
+    <br>
+    <a href="logicalops.php">Learn Logical Operators</a>
 </body>
 </html>
