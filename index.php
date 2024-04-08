@@ -34,5 +34,7 @@ echo "Pizza and fries is a undefeated combination";
     <a href="radiobutton.php">Learn Radio Buttons</a>
     <br>
     <a href="checkbox.php">Learn Checkboxes in PHP</a>
+    <br>
+    <a href="functionsinphp.php">Learn Functions in PHP</a>
 </body>
 </html>
