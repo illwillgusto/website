@@ -14,24 +14,26 @@
         <label>Password:</label><br>
         <input type="password" name="password"><br>
         <input type="submit" value="log in"><br>
+    </form> <br>
+    <form action="getandpost.php" method="post">
+        <label>Username:</label><br>
+        <input type="text" name="username"><br>
+        <label>Password:</label><br>
+        <input type="password" name="password"><br>
+        <input type="submit" value="log in"><br>
     </form>
 </body>
 
 </html>
 
 <?php
-
-
-
-
-
-
-
-
-
-
-
-
+echo "{$_GET["username"]} <br> ";
+echo "{$_GET["password"]} <br>"; // when using the GET method adding the {} and "" along with the <br> gives cleaner code and line breaks 
+// the syntax for what you want to get from a form is $_GET["what you want to get goes here"];
+// the problem with GET is any information sent over to php is appended to the url, no security
+echo "{$_POST["username"]} <br> ";
+echo "{$_POST["password"]} <br>";
+// the sensitive information doesn't appear in the URL 
 
 /*
 $_GET, $_POST = special variables used to collect data from an HTML form
