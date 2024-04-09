@@ -40,5 +40,7 @@ echo "Pizza and fries is a undefeated combination";
     <a href="sanitizevalidate.php">Learn Sanitize & Validate</a>
     <br>
     <a href="includefunction.php">Learn Include()</a>
+    <br>
+    <a href="cookies.php">Learn About Cookies</a>
 </body>
 </html>
