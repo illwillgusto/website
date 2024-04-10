@@ -42,5 +42,7 @@ echo "Pizza and fries is a undefeated combination";
     <a href="includefunction.php">Learn Include()</a>
     <br>
     <a href="cookies.php">Learn About Cookies</a>
+    <br>
+    <a href="session.php">Learn Sessions</a>
 </body>
 </html>

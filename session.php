@@ -16,7 +16,15 @@ ex. login credentials
     <title>Sessions</title>
 </head>
 <body>
-    This is the login page
-    <a href="home.php">This goes to the home page</a>
+    This is the login page<br>
+    <a href="home.php">This goes to the home page</a><br>
 </body>
 </html>
+
+<?php
+     $_SESSION["username"] = "Will";
+     $_SESSION["password"] = "gusto1234";
+ 
+     echo $_SESSION["username"] . "<br>";
+     echo $_SESSION["password"] . "<br>";
+?>
