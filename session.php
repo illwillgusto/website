@@ -23,16 +23,22 @@ session_start();
         <input type="text" name="username" require><br>
         password: <br>
         <input type="password" name="password" require><br>
-        <input type="submit" name="Submit"><br>
+        <input type="submit" name="login" value="login"><br>
     </form><br>
 </body>
 
 </html>
 
 <?php
-$_SESSION["username"] = "Will";
-$_SESSION["password"] = "gusto1234";
+if (isset($_POST["login"])) {
 
-echo $_SESSION["username"] . "<br>";
-echo $_SESSION["password"] . "<br>";
+    
+    if(!empty($_POST["username"]) && 
+    !empty($_POST["password"])){
+        
+        $_SESSION["username"] = $_POST["username"];
+        $_SESSION["password"] = $_POST["password"];
+
+    }
+}
 ?>
