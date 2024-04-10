@@ -13,7 +13,9 @@ session_start();
 
 <body>
     This is the home page<br>
-    <a href="session.php">This goes to the login page</a><br>
+   <form action="home.php" method="post">
+        <input type="submit" name="logout" value="logout">
+   </form>
 </body>
 
 </html>
@@ -22,4 +24,9 @@ session_start();
 echo $_SESSION["username"] . "<br>";
 echo $_SESSION["password"] . "<br>";
 
+
+if(isset($_POST["logout"])) {
+    session_destroy();
+    header("Location: session.php");
+}
 ?>

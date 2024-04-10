@@ -41,7 +41,7 @@ if (isset($_POST["login"])) {
         $_SESSION["username"] = $_POST["username"];
         $_SESSION["password"] = $_POST["password"];
 
-
+        header("Location: home.php"); //this allows us to jump to the homepage after the login is successfully 
     } else {
         echo "Missing username/password <br>";
     }
