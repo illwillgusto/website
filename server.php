@@ -19,9 +19,12 @@ contains the value of the current file path, php_self is vulnerable to cross-sit
 //  $_SERVER = SGB that contains headers, paths, and script locations.
 //             The entires in this array are created by the web server.
 //             Shows nearly everything you need to know about the current web page environment.
-/*
+
 foreach ($_SERVER as $key => $value) {
   echo"{$key} = {$value} <br>";
 }
-*/
+
+if ( $_SERVER["REQUEST_METHOD"] == "POST") {
+  echo"HELLO";
+} //handling post requests
 ?>
