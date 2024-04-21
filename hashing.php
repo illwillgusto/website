@@ -8,12 +8,12 @@ Hides the original data from 3rd parties.
 
  $hash = password_hash($password, PASSWORD_DEFAULT);
 
- echo $hash;
+
 
  if (password_verify("wings1234", $hash)) {
-  echo"<br>You are logged in!";
+  echo"You are logged in!";
  }
  else {
-  echo"<br>Incorrect password!";
+  echo"Incorrect password!";
  }
 ?>
