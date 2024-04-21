@@ -6,7 +6,8 @@
   <title>Server Learning</title>
 </head>
 <body>
-  <form action="server.php" method="post">
+  <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post"> <!--adding a php script in the action, this key
+contains the value of the current file path, php_self is vulnerable to cross-site, to avoid that use htmlspecialchar -->
     username:<br>
     <input type="text" name="username">
     <input type="submit">
