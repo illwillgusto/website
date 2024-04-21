@@ -46,5 +46,7 @@ echo "Pizza and fries is a undefeated combination";
     <a href="session.php">Learn Sessions</a>
      <br>
     <a href="server.php">Learn Servers</a>
+     <br>
+    <a href="hashing.php">Learn Hashing</a>
 </body>
 </html>
