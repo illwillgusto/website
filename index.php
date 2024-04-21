@@ -2,7 +2,7 @@
 echo "I love pizza <br>";
 echo "Pizza is awesome <br>";
 echo "Pizza and fries is a undefeated combination";
-//this is a comment 
+//this is a comment
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -44,5 +44,7 @@ echo "Pizza and fries is a undefeated combination";
     <a href="cookies.php">Learn About Cookies</a>
     <br>
     <a href="session.php">Learn Sessions</a>
+     <br>
+    <a href="server.php">Learn Servers</a>
 </body>
 </html>
