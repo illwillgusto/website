@@ -23,5 +23,13 @@ include("database.php");
 </body>
 </html>
 <?php
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+  // filter for any malicious scripts 
+  $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_FULL_SPECIAL_CHARS)
+  $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_FULL_SPECIAL_CHARS)
+}
+
   mysqli_close($connection);
 ?>
