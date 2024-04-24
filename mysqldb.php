@@ -1,8 +1,8 @@
 <?php
 include("database.php");
 
-$username = "Gohan";
-$password = "Pan";
+$username = "Chichi";
+$password = "songoku";
 $hash = password_hash($password, PASSWORD_DEFAULT);
 
 $sql = "INSERT INTO users (user, password)
