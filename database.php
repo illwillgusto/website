@@ -23,5 +23,5 @@
 
   if($connection){
     echo "You are connected";
-  } 
+  }
 ?>
