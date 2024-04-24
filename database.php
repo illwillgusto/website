@@ -12,8 +12,8 @@
     $db_user,
     $db_pass,
     $db_name); // trying some code that might throw an error
-  } catch (\Throwable $th) {
-    //throw $th;
+  } catch (mysqli_sql_exception $th) {
+    echo "Could not connect, sorry.";
   } // the 'try block' deals with exception handling
 
   $connection = mysqli_connect($db_server,
@@ -23,7 +23,5 @@
 
   if($connection){
     echo "You are connected";
-  } else {
-    echo "Could not connect, sorry.";
-  }
+  } 
 ?>
