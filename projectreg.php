@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // checking if any of the 2 register fields are empty
   if (empty($username)) {
     echo "Please enter a username.";
-  } elseif ($password) {
+  } elseif (empty($password)) {
     echo "Please enter a password";
   }
   else {
