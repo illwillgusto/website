@@ -22,6 +22,6 @@
   $db_name);
 
   if($connection){
-    echo "You are connected<br>";
+    echo "You are connected! <br>";
   }
 ?>
