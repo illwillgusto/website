@@ -1,7 +1,8 @@
 <?php
 include("database.php");
 
-$sql = "INSERT INTO users (user, password)";
+$sql = "INSERT INTO users (user, password)
+        VALUES ('Goku', 'password1')";
 
 
 
