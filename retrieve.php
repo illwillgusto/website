@@ -11,6 +11,8 @@ if(mysqli_num_rows($result) > 0){
   echo $row['id'] . "<br>";
   echo $row['user'] . "<br>";
   echo $row['reg_date'] . "<br>";
+} else {
+  echo "No user found"; // this will appear if a user entered isn't in our db 
 }
 
 mysqli_close($connection);
