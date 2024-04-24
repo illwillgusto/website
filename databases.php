@@ -7,5 +7,10 @@
   $db_name = "businessdb";
   $connection = "";
 
+  $connection = mysqli_connect($db_server,
+  $db_user,
+  $db_pass,
+  $db_name);
 
+  
 ?>
