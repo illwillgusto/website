@@ -12,5 +12,7 @@
   $db_pass,
   $db_name);
 
-  
+  if($connection){
+    echo "You are connected";
+  }
 ?>
