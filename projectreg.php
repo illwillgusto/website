@@ -36,6 +36,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   } elseif ($password) {
     echo "Please enter a password";
   }
+  else {
+    $hash = password_hash($password, PASSWORD_DEFAULT); // security measures to hash the password when sent to the db
+  }
 }
 
   mysqli_close($connection);
