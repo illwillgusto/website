@@ -26,9 +26,16 @@ include("database.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-  // filter for any malicious scripts 
-  $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_FULL_SPECIAL_CHARS)
-  $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_FULL_SPECIAL_CHARS)
+  // filter for any malicious scripts
+  $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+  $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+
+  // checking if any of the 2 register fields are empty
+  if (empty($username)) {
+    echo "Please enter a username.";
+  } elseif ($password) {
+    echo "Please enter a password";
+  }
 }
 
   mysqli_close($connection);
