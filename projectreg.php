@@ -16,6 +16,8 @@ include("database.php");
       <h2>Welcome to Fakebook</h2>
       username:<br>
       <input type="text" name="username" placeholder="username"><br>
+      password:<br>
+      <input type="password" name="password" placeholder="password"><br>
   </form>
 </body>
 </html>
