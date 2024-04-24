@@ -5,7 +5,7 @@ $username = "Gohan";
 $password = "Pan";
 
 $sql = "INSERT INTO users (user, password)
-        VALUES ('Vegeta', 'planetvegeta1')";
+        VALUES ('$username', '$password')";
 
 
 try {
