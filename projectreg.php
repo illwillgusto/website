@@ -12,7 +12,7 @@ include("database.php");
   <title>Document</title>
 </head>
 <body>
-  <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>">
+  <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post">
 
   </form>
 </body>
