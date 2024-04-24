@@ -3,9 +3,10 @@ include("database.php");
 
 $username = "Gohan";
 $password = "Pan";
+$hash = password_hash($password, PASSWORD_DEFAULT);
 
 $sql = "INSERT INTO users (user, password)
-        VALUES ('$username', '$password')";
+        VALUES ('$username', '$hash')";
 
 
 try {
