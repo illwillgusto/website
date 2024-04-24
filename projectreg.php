@@ -40,8 +40,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $hash = password_hash($password, PASSWORD_DEFAULT); // security measures to hash the password when sent to the db
     $sql = "INSERT INTO users (user, password)
             VALUES ('$username', '$hash')"; //query
-    mysqli_query($connection, $sql);// initiate the query
-    echo "You are now registered!";
+    //exception handling
+    try {
+      mysqli_query($connection, $sql);// initiate the query
+      echo "You are now registered!";
+    } catch (mysqli_sql_exception)
+         {
+      echo "That username is taken.";
+    }
   }
 }
 
