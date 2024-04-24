@@ -1,5 +1,5 @@
 <?php
-
+include("database.php");
 
 ?>
 <!DOCTYPE html>
@@ -10,6 +10,6 @@
   <title>Document</title>
 </head>
 <body>
-  Hello
+  Hello<br>
 </body>
 </html>
