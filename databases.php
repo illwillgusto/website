@@ -14,5 +14,7 @@
 
   if($connection){
     echo "You are connected";
+  } else {
+    echo "Could not connect, sorry.";
   }
 ?>
