@@ -1,8 +1,11 @@
 <?php
 include("database.php");
 
+$username = "Gohan";
+$password = "Pan";
+
 $sql = "INSERT INTO users (user, password)
-        VALUES ('Goku', 'password1')";
+        VALUES ('Vegeta', 'planetvegeta1')";
 
 
 try {
