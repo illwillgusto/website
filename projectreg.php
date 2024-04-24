@@ -13,7 +13,9 @@ include("database.php");
 </head>
 <body>
   <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post">
-
+      <h2>Welcome to Fakebook</h2>
+      username:<br>
+      <input type="text" name="username" placeholder="username"><br>
   </form>
 </body>
 </html>
