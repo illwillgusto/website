@@ -1,8 +1,8 @@
 <?php
-include('database.php');
+include("database.php");
 
 
-$sql = "SELECT * FROM users WHERE users = 'Goku'"; //this is telling us what we are selecting, from where and what
+$sql = "SELECT * FROM users WHERE user = 'Goku'"; //this is telling us what we are selecting, from where and what
 $result = mysqli_query($connection, $sql); // this function will return an object
 
 // finding out how many rows are in a query we will use an if statement
